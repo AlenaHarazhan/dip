@@ -1,0 +1,565 @@
+*{
+-webkit-transition: all 0.3s ease;
+-moz-transition: all 0.3s ease;
+-o-transition: all 0.3s ease;
+-ms-transition: all 0.3s ease;
+transition: all 0.3s ease;
+}
+#wrap {
+position: relative;
+overflow: hidden;
+margin: 0 auto;
+width: 100%;
+height: auto;
+background-color: #F2E8B6;
+background-image: url(../images/11111.png);
+}
+nav {
+float: right;
+width: 33%;
+margin-right: 5%;
+font-family: 'Lexend Tera', sans-serif;
+}
+nav a {
+color: #5b9096;
+}
+nav a:hover {
+color: #315559;
+}
+.top {
+height: 150px;
+overflow: hidden;
+padding: 10px 0px;
+margin: 0 0 30px 0;
+
+}
+.logo {
+position: relative;
+float: left;
+width: 40%;
+height: 50px;
+margin-top: 5.5em;
+margin-left: 5.5em;
+font-family: 'Lexend Tera', sans-serif;
+}
+.logo h2 {
+font-size: 18px;
+color: #BF6B63;
+}
+a {
+text-decoration: none;
+}
+#show {
+position: relative;
+width: 80%;
+height: 500px;
+align-content: center;
+margin: 10%;
+background-color: #aaa;
+float: left;
+}
+#namegallery {
+position: relative;
+float: left;
+width: 100%;
+height:auto;
+text-align: center;
+font-size: 70px;
+font-family: 'Sigmar One', cursive;
+color: #BF6B63;
+margin-bottom: 20px;
+margin-top: 100px;
+}
+#namegallery:hover {
+-webkit-transform: scale(1.2);
+-ms-transform: scale(1.2);
+transform: scale(1.2);
+}
+.hr-shelf {
+ margin: -30px auto 10px;
+ padding: 0;
+ height: 50px;
+ border: none;
+ border-bottom: 1px solid #BF6B63;
+ box-shadow: 0 20px 20px -20px #8b8255;
+ width: 95%;
+}
+.list {
+float: left;
+width: 45%;
+height: 50px;
+margin-left: 2%;
+margin-right: 3%;
+margin-top: 5.5em;
+}
+.b-list{
+width: 300px;
+height: 300px;
+margin: 0 0 80px 0;
+}
+#gallery {
+width: 67%;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+flex-wrap: wrap;
+margin-left: 16%;
+margin-right: 5%;
+
+}
+
+footer {
+width: 100%;
+position: relative;
+float: left;
+background-color: #315559;
+/*background: linear-gradient(360deg, #012226,#A6A197);*/
+}
+footer {
+height: 100%;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+flex-wrap: wrap;
+}
+footer div {
+width: auto;
+height: 30px;
+padding: 40px;
+}
+footer p {
+color: #fff;
+font-size: 1.2em;
+margin: 0px;
+padding: 0px;
+width: auto;
+font-family: 'Lexend Tera', sans-serif;
+}
+#skype, #telega, #phone, #mail {
+background-repeat: no-repeat;
+background-position: left;
+}
+#telega {
+background-size: 20%;
+}
+#mail {
+background-size: 18%;
+}
+#phone {
+background-size: 25%;
+}
+#skype {
+background-size: 28%;
+}
+#skype {
+background-image: url(../images/skype.png);
+}
+#telega {
+background-image: url(../images/telegram.png);
+}
+#phone {
+background-image: url(../images/phone.png);
+}
+#mail {
+background-image: url(../images/mail.png);
+}
+#skype p, #telega p, #phone p, #mail p {
+margin-left: 30px;
+}
+#share {
+    width: 700px;
+    height: 100px;
+}
+#up {
+width: 100%;
+height: auto;
+position: relative;
+float: left;
+}
+#up img {
+width: 50px;
+height: 50px;
+opacity: 0.6;
+margin-left: 93%;
+padding: 10px;
+}
+#up img:hover {
+opacity: 1;
+}
+.footer {
+font-size: 0.6em;
+}
+.footer a {
+color: #fff;
+}
+@media screen and (min-width: 600px) and (max-width: 800px) {
+.top {
+height: 300px;
+}
+
+.b-list {
+float: left;
+width: 32%;
+margin: 0 0 0 2%;
+}
+.b-list:first-child{
+margin: 0;
+}
+
+}
+@media screen and (max-width: 600px) {
+.top {
+height: 300px;
+}
+.logo {
+float: none;
+}
+.item{
+float: none;
+width: 100%;
+margin: 30px 0 0;
+}
+.list {
+margin: 0 15% 0 0;
+}
+
+.b-list {
+margin: 0 0 30px 0;
+}
+
+}
+
+
+#slideshow {
+    width: 100%;
+    height: 500px;
+    background-color: white;
+    overflow: hidden;
+    position: relative;
+}
+
+
+
+<!-- blocks -->
+
+
+section {
+    display: block;
+}
+
+audio:not([controls]) {
+    display: none;
+    height: 0px;
+}
+a:focus {
+    outline: thin dotted;
+}
+
+a:hover, a:active {
+    outline: 0px none;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0px;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin: 0.83em 0px;
+}
+
+h3 {
+    font-size: 1.17em;
+    margin: 0.5em 0px;
+}
+
+b, strong {
+    font-weight: bold;
+}
+
+p, pre {
+    margin: 1em 0px;
+}
+
+dl, menu, ol, ul {
+    margin: 1em 0px;
+}
+
+menu, ol, ul {
+    padding: 0px 0px 0px 40px;
+}
+svg:not(:root) {
+    overflow: hidden;
+}
+
+button::-moz-focus-inner, input::-moz-focus-inner {
+    border: 0px none;
+    padding: 0px;
+}
+body {
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.container {
+    width: 100%;
+    position: relative;
+}
+
+.clr {
+    clear: both;
+    padding: 0px;
+    height: 0px;
+    margin: 0px;
+}
+
+.main {
+    width: 90%;
+    margin: 0px auto;
+    position: relative;
+}
+
+.container > header {
+    margin: 10px;
+    padding: 20px 10px 10px;
+    position: relative;
+    display: block;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.container > header h1 {
+    font-size: 32px;
+    line-height: 32px;
+    margin: 0px;
+    position: relative;
+    font-weight: 300;
+    color: rgb(119, 119, 119);
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.7);
+}
+
+.container > header h2 {
+    font-size: 14px;
+    font-weight: 300;
+    font-style: italic;
+    margin: 0px;
+    padding: 15px 0px 5px;
+    color: rgb(136, 136, 136);
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.9);
+}
+
+.codrops-top {
+    line-height: 24px;
+    font-size: 11px;
+    background: none repeat scroll 0% 0% rgba(255, 255, 255, 0.6);
+    text-transform: uppercase;
+    z-index: 9999;
+    position: relative;
+    box-shadow: 1px 0px 2px rgba(0, 0, 0, 0.1);
+}
+
+.codrops-top a {
+    padding: 0px 10px;
+    letter-spacing: 1px;
+    color: rgb(51, 51, 51);
+    display: inline-block;
+}
+
+.codrops-top a:hover {
+    background: none repeat scroll 0% 0% rgba(255, 255, 255, 0.3);
+}
+
+.codrops-top span.right {
+    float: right;
+}
+
+.codrops-top span.right a {
+    float: left;
+    display: block;
+}
+
+.codrops-demos {
+    text-align: center;
+    display: block;
+    line-height: 30px;
+    padding: 5px 0px;
+}
+
+.codrops-demos a {
+    display: inline-block;
+    font-style: italic;
+    margin: 0px 4px;
+    padding: 0px 6px;
+    color: rgb(170, 170, 170);
+    line-height: 20px;
+    font-size: 13px;
+    text-shadow: 1px 1px 1px rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+    background: -moz-linear-gradient(center top , rgb(255, 255, 255) 0%, rgb(246, 246, 246) 47%, rgb(237, 237, 237) 100%) repeat scroll 0% 0% transparent;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.codrops-demos a:hover {
+    color: rgb(51, 51, 51);
+    background: none repeat scroll 0% 0% rgb(255, 255, 255);
+}
+
+.codrops-demos a:active {
+    background: none repeat scroll 0% 0% rgb(255, 255, 255);
+}
+
+.codrops-demos a.current-demo, .codrops-demos a.current-demo:hover {
+    background: none repeat scroll 0% 0% rgb(240, 240, 240);
+    border-color: rgb(217, 217, 217);
+    color: rgb(170, 170, 170);
+    box-shadow: 0px 1px 1px rgba(255, 255, 255, 0.7);
+}
+
+.support-note span {
+    color: rgb(172, 55, 93);
+    font-size: 16px;
+    display: none;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px 0px;
+}
+
+
+.ch1-grid li, .ch2-grid li, .ch3-grid li {
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    margin: 20px;
+}
+
+.ch1-grid, .ch2-grid, .ch3-grid {
+    margin: 20px 0px 0px;
+    padding: 0px;
+    list-style: none outside none;
+    display: block;
+    text-align: center;
+    width: 100%;
+
+}
+
+.ch1-grid:after, .ch2-grid:after, .ch3-grid:after {
+    clear: both;
+}
+
+.ch1-grid:after, .ch1-item:before, .ch2-grid:after, .ch2-item:before, .ch3-grid:after, .ch3-item:before {
+    content: "";
+    display: table;
+}
+
+.ch1-img-1 {
+    background-image: url('../images/characters.jpg');
+}
+
+.ch1-img-2 {
+    background-image: url('../images/illustrations.jpg');
+}
+
+.ch1-img-3 {
+    background-image: url('../images/logos.jpg');
+}
+
+
+.ch1-info h3, .ch2-info h3, .ch3-info h3  {
+    color: #5b9096;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 18px;
+   
+    padding: 45px 0px 0px;
+    height: 100px;
+    font-family: 'Lexend Tera', sans-serif;
+    text-shadow: 0px 0px 1px rgb(255, 255, 255), 0px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.ch1-info p a, .ch2-info p a, .ch3-info p a {
+    display: block;
+    color: #5b9096;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: 1px;
+    padding-top: 4px;
+   font-family: 'Lexend Tera', sans-serif;
+}
+
+.ch1-info p a:hover, .ch2-info p a:hover, .ch3-info p a:hover{
+    color: #315559;
+}
+
+.ch1-info p, .ch2-info p, .ch3-info p {
+    color: rgb(255, 255, 255);
+    padding: 10px 5px;
+    font-style: italic;
+    margin: 0px 30px;
+    font-size: 12px;
+    border-top: 1px solid rgba(155, 140, 73, 0.5);
+    opacity: 0;
+    transition: all 1s ease-in-out 0.4s ;
+}
+
+.ch1-info, .ch2-info, .ch3-info {
+    position: absolute;
+    background: none repeat scroll 0% 0% rgba(255, 255, 255, 0.8);
+    width: inherit;
+    height: inherit;
+    border-radius: 50% 50% 50% 50%;
+    opacity: 0;
+    transition: all 0.4s ease-in-out 0s ;
+    transform: scale(0);
+   /* box-shadow: 0 14px 28px #8b8255, 0 10px 10px #8b8255;*/
+}
+
+.ch1-item, .ch2-item, .ch3-item {
+    width: 300px;
+    height: 300px;
+    border-radius: 50% 50% 50% 50%;
+    position: relative;
+    cursor: default;
+    box-shadow: 0px 0px 0px 16px rgba(255, 255, 255, 0.6) inset, 0 10px 10px #8b8255;;
+    transition: all 0.4s ease-in-out 0s ;
+    /*box-shadow: 0 14px 28px #8b8255, 0 10px 10px #8b8255;*/
+}
+
+.ch1-item:hover .ch1-info p, .ch2-item:hover .ch2-info p, .ch3-item:hover .ch3-info p {
+    opacity: 1;
+}
+
+.ch1-item:hover .ch1-info, .ch2-item:hover .ch2-info, .ch3-item:hover .ch3-info {
+    transform: scale(1);
+    opacity: 1;
+}
+
+.ch1-item:hover, .ch2-item:hover, .ch3-item:hover {
+    box-shadow: 0px 0px 0px 1px rgba(255, 255, 255, 0.1) inset, 0px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+
+.ch2-img-1 {
+    background-image: url('../images/icons.jpg');
+}
+
+.ch2-img-2 {
+    background-image: url('../images/colorings.jpg');
+}
+
+.ch2-img-3 {
+    background-image: url('../images/sets.jpg');
+}
+
+.ch3-img-1 {
+    background-image: url('../images/animation.jpg');
+}
+
+.ch3-img-2 {
+    background-image: url('../images/patterns.png');   
+}
+
+.ch3-img-3 {
+    background-image: url('../images/gamedev.jpg'); 
+}
