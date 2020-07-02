@@ -1,0 +1,126 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>My site</title>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+		<link rel="stylesheet" href="../css/reset.css" type="text/css" media="all" />
+		<link rel="stylesheet" href="../css/vertical_rhythm.css" type="text/css" media="all" />
+		<link rel="stylesheet" href="../css/char.css" type="text/css" media="all" />
+		
+		
+		<![if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+		<script type="text/javascript" src = "../js/jq.js"></script>
+		<script type="text/javascript" src = "../js/char.js"></script>
+		<script src="../js/gsap.js"></script>
+		<link href="https://fonts.googleapis.com/css2?family=Lexend+Tera&family=Paytone+One&family=Piedra&family=Sigmar+One&display=swap" rel="stylesheet">
+		
+		
+	</head>
+	<body>
+		<div id = "wrap">
+			<header>
+				
+				<div class="logo"><h2><a href="../index2.html">Alena Harazhan, Illustrator</a></h2></div>
+				<nav>
+					<ul>
+						<li class="list"><a href="../html/about2.html" class="class-for-22px">About</a></li>
+						<li class="list"><a href="../html/contacts2.html" class="class-for-22px">Contacts</a></li>
+					</ul>
+				</nav>
+				
+				
+				<!-- nav content -->
+				
+			</header>
+			<div id = "namegallery">Characters</div>
+			<hr class="hr-shelf">
+			<div id = "container">
+				<div id = "img1">
+					<div class = "slide" class="class-for-14px">
+						<img src="../images/arr_c.png" id="arr_1" />
+						<img src="../images/arr_c.png" id="arr_2" />
+						<h1 class="class-for-36px">"The Squirrel"</h1>
+						<p>Style: cartoon.</p>
+						<p>Technique: digital (raster) graphics.</p>
+					</div>
+				</div>
+				<div id = "img2"></div>
+				<div id = "img3"></div>
+				<div id = "img4">
+					<div class = "slide" class="class-for-14px">
+						<img src="../images/arr_c.png" id="arr_1" />
+						<img src="../images/arr_c.png" id="arr_2" />
+						<h1 class="class-for-36px">"The Kitten"</h1>
+						<p>Style: cartoon.</p>
+						<p>Technique: digital (raster) graphics.</p>
+					</div>
+				</div>
+				<div id = "img5"></div>
+				<div id = "img6"></div>
+				<div id = "img7"></div>
+				<div id = "img8"></div>
+				<div id = "img9"></div>
+				<div id = "img10"></div>
+				<div id = "img11"></div>
+				<div id = "img12"></div>
+			</div>
+			
+			<div id = "up"><a href="#" onclick="return up()"><img src="../images/up.png"></a></div>
+			
+			<p><img id="largeImg" src='../images/characters/bel.jpg' alt="Large image"></p>
+			<ul id="thumbs">
+				
+				<li>
+					<a href='../images/characters/enot.jpg' title="Image 2"><img src='../images/characters/enot_s.jpg'></a>
+				</li>
+				<li>
+					<a href='../images/characters/panda.jpg' title="Image 3"><img src='../images/characters/panda_s.jpg'></a>
+				</li>
+				<li>
+					<a href='../images/characters/kitten.jpg' title="Image 4"><img src='../images/characters/kitten_s.jpg'></a>
+				</li>
+				<li>
+					<a href='../images/characters/fox.jpg' title="Image 5"><img src='../images/characters/fox_s.jpg'></a>
+				</li>
+				<li>
+					<a href='../images/characters/granny.jpg' title="Image 6"><img src='../images/characters/granny_s.jpg'></a>
+				</li>
+				<li>
+					<a href='../images/characters/mama.jpg' title="Image 6"><img src='../images/characters/mama_s.jpg'></a>
+				</li>
+				<li>
+					<a href='../images/characters/girl&boy.jpg' title="Image 6"><img src='../images/characters/girl&boy_s.jpg'></a>
+				</li>
+			</ul>
+			<script>
+			thumbs.onclick = function(event) {
+			let thumbnail = event.target.closest('a');
+			if (!thumbnail) return;
+			showThumbnail(thumbnail.href, thumbnail.title);
+			event.preventDefault();
+			}
+			function showThumbnail(href, title) {
+			largeImg.src = href;
+			largeImg.alt = title;
+			}
+			</script>
+			
+			<footer>
+				<div id = "phone" class="class-for-14px"><p>+375(29)5591800</p></div>
+				<div id = "mail" class="class-for-14px"><p>habasy@gmail.com</p></div>
+				<div id = "telega" class="class-for-14px"><p>Alena Harazhan</p></div>
+				<div id = "skype" class="class-for-14px"><p>kotolol</p></div>
+				<div class="footer"> <div class="container">
+					<p>All rights reserved
+						<a href="html/about2.html">Alena Harazhan</a>
+					&copy; 2020 </p>
+				</div>
+			</footer>
+			
+		</div>
+		<!-- footer content -->
+		
+	</body>
