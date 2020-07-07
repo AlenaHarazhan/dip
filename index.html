@@ -3,128 +3,160 @@
 	<head>
 		<title>My site</title>
 		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
-		<link rel="stylesheet" href="css/reset.css" type="text/css" media="all" />
-		<link rel="stylesheet" href="css/vertical_rhythm.css" type="text/css" media="all" />
-		<link rel="stylesheet" href="css/main.css" type="text/css" media="all" />
-		
-		<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Kalam:wght@300;400&display=swap" rel="stylesheet">
-		
+		<link rel="stylesheet" href="styles/reset.css" type="text/css" media="all" />
+		<link rel="stylesheet" href="styles/vertical-rhythm.css" type="text/css" media="all" />
+		<link rel="stylesheet" href="styles/pages/index.css" type="text/css" media="all" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Lexend+Tera&family=Paytone+One&family=Piedra&family=Sigmar+One&display=swap"
+			rel="stylesheet">
+			<link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap" rel="stylesheet">
+			<!--[if lt IE 9]-->
+			<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+			<!--[endif]-->
+			<script src="script/lib/gsap.js"></script>
+			<script src="script/lib/jq.js"></script>
+			<script src="script/index.js"></script>
+		</head>
+		<body>
+			<div id="wrap">
+				<header>
+					<div class="top">
+						<div class="logo">
+							<h2>Alena Harazhan, Illustrator</h2>
+						</div>
 
-		<script src="js/index.js"></script>
-		<script src="js/gsap.js"></script>
-
-	</head>
-	<body>
-		<div id = "wrap">
-			
-			<div class="top">
-				<div class="logo"><h2>Alena Harazhan, Illustrator</h2></div>
-				
-				<ul class="item">
-					<li class="list"><a href="html/about.html" class="class-for-22px">About</a></li>
-					<li class="list"><a href="html/contacts.html" class="class-for-22px">Contacts</a></li>
-				</ul>
-			</div>
-			
-			<!-- nav content -->
-			
-			
-<div class="slideshow">
-	<div class="wrapper">
-		<div class="slide">
-			<picture>
-				<source srcset="images/1.jpg" media="(max-width: 1024px) and (orientation: landscape)">
-				<source srcset="images/1.jpg" media="(max-width: 480px) and (orientation: portrait)">
-				<source srcset="images/1.jpg" media="(max-width: 640px)">
-				<source srcset="images/1.jpg">
-				<img src="images/1.jpg" alt="Город">
-			</picture>
-		</div>
-		<div class="slide">
-			<picture>
-				<source srcset="images/2.jpg" media="(max-width: 1024px) and (orientation: landscape)">
-				<source srcset="images/2.jpg" media="(max-width: 480px) and (orientation: portrait)">
-				<source srcset="images/2.jpg" media="(max-width: 640px)">
-				<source srcset="images/2.jpg">
-				<img src="images/2.jpg" alt="Каньон">
-			</picture>
-		</div>
-		<div class="slide">
-			<picture>
-				<source srcset="images/3.jpg" media="(max-width: 1024px) and (orientation: landscape)">
-				<source srcset="images/3.jpg" media="(max-width: 480px) and (orientation: portrait)">
-				<source srcset="images/3.jpg" media="(max-width: 640px)">
-				<source srcset="images/3.jpg">
-				<img src="images/3.jpg" alt="Море">
-			</picture>
-		</div>
-		<div class="slide">
-			<picture>
-				<source srcset="images/4.jpg" media="(max-width: 1024px) and (orientation: landscape)">
-				<source srcset="images/4.jpg" media="(max-width: 480px) and (orientation: portrait)">
-				<source srcset="images/4.jpg" media="(max-width: 640px)">
-				<source srcset="images/4.jpg">
-				<img src="images/4.jpg" alt="Пустыня">
-			</picture>
-		</div>
-		
-	</div>
-</div>
-					<!-- slide-show -->
-					
-					<div id = "namegallery">Gallery</div>
-					<div id = "gallery" class = "m-text">
-						<div id = "characters"><article class="b-list"><a href="characters.html"><img src="images/characters.jpg" alt="characters"/><h2>Characters</h2>
-						</a></article></div>
-						<!-- characters content -->
-
-						<div id = "illustrations"><article class="b-list"><a href="Illustrations.html"><img src="images/illustrations.jpg" alt="illustrations"/><h2>Illustrations</h2>
-						</a></article></div>
-						<!-- Illustrations content -->
-
-						<div id = "logos"><article class="b-list"><a href="logos.html"><img src="images/logos.jpg" alt="logos"/><h2>Logos</h2>
-						</a></article></div>
-						<!-- logos content -->
-
-						<div id = "icons"><article class="b-list"><a href="icons.html"><img src="images/icons.jpg" alt="icons"/><h2>Icons</h2>
-						</a></article></div>
-						<!-- icons content -->
-
-						<div id = "colorings"><article class="b-list"><a href="colorings.html"><img src="images/colorings.jpg" alt="colorings"/><h2>Coloring</h2>
-						</a></article></div>
-						<!-- colorings content -->
-
-						<div id = "sets"><article class="b-list"><a href="sets.html"><img src="images/sets.jpg" alt="sets"/><h2>Sets</h2>
-						</a></article></div>
-						<!-- sets content -->
-
-						<div id = "animation"><article class="b-list"><a href="animation.html"><img src="images/animation.jpg" alt="animation"/><h2>Animation</h2>
-						</a></article></div>
-						<!-- animations content -->
-
-						<div id = "patterns"><article class="b-list"><a href="patterns"><img src="images/patterns.png" alt="patterns"/><h2>Patterns</h2>
-						</a></article></div>
-						<!-- patterns content -->
-
-						<div id = "gamedev"><article class="b-list"><a href="gamedev.html"><img src="images/gamedev.jpg" alt="gamedev"/><h2>GameDev</h2>
-						</a></article></div>
-						<!-- patterns content -->
-												
+						<nav>
+							<ul>
+								<li class="list"><a href="about.html" class="class-for-22px">About</a></li>
+								<li class="list"><a href="contacts.html" class="class-for-22px">Contacts</a></li>
+							</ul>
+						</nav>
 					</div>
-
-		<div id = "up"><a href="#" onclick="return up()"><img src="images/up.png"></a></div>
-											
-	<footer>
-
-		<div id = "phone" class="class-for-14px"><p>+375(29)5591800</p></div>
-		<div id = "mail" class="class-for-14px"><p>habasy@gmail.com</p></div>
-		<div id = "telega" class="class-for-14px"><p>Alena Harazhan</p></div>
-		<div id = "skype" class="class-for-14px"><p>kotolol</p></div>
-
-	</footer>
-										
-</div>
-<!-- footer content -->
-
-										
-</body>
+				</header>
+				<hr class="hr-shelf">
+				<!-- nav content -->
+				<div id="slideshow">
+					
+				</div>
+				<hr class="hr-shelf2">
+				<!-- slide-show -->
+				<div id="namegallery">Gallery</div>
+				<section class="main">
+					<ul class="ch1-grid">
+						<li>
+							<div class="ch1-item ch1-img-1">
+								<div class="ch1-info">
+									<h3>Characters</h3>
+									<p>
+										<a href="pages/characters.html">Look at</a>
+									</p>
+								</div>
+							</div>
+						</li>
+						<!-- characters content -->
+						<li>
+							<div class="ch1-item ch1-img-2">
+								<div class="ch1-info">
+									<h3>Illustrations</h3>
+									<p>
+										<a href="pages/illustrations.html">Look at</a>
+									</p>
+								</div>
+							</div>
+						</li>
+						<!-- Illustrations content -->
+						<li>
+							<div class="ch1-item ch1-img-3">
+								<div class="ch1-info">
+									<h3>Logos</h3>
+									<p>
+										<a href="pages/logos.html">Look at</a>
+									</p>
+								</div>
+							</div>
+						</li>
+						<!-- logos content -->
+						<li>
+							<div class="ch2-item ch2-img-1">
+								<div class="ch2-info">
+									<h3>Icons</h3>
+									<p>
+										<a href="pages/icons.html">Look at</a>
+									</p>
+								</div>
+							</div>
+						</li>
+						<!-- Icons content -->
+						<li>
+							<div class="ch2-item ch2-img-2">
+								<div class="ch2-info">
+									<h3>Colorings</h3>
+									<p>
+										<a href="pages/colorings.html">Look at</a>
+									</p>
+								</div>
+							</div>
+						</li>
+						<!-- colorings content -->
+						<li>
+							<div class="ch2-item ch2-img-3">
+								<div class="ch2-info">
+									<h3>Sets</h3>
+									<p>
+										<a href="pages/sets.html">Look at</a>
+									</p>
+								</div>
+							</div>
+						</li>
+						<!-- sets content -->
+						<li>
+							<div class="ch3-item ch3-img-1">
+								<div class="ch3-info">
+									<h3>Animation</h3>
+									<p>
+										<a href="pages/animations.html">Look at</a>
+									</p>
+								</div>
+							</div>
+						</li>
+						<!-- animation content -->
+						<li>
+							<div class="ch3-item ch3-img-2">
+								<div class="ch3-info">
+									<h3>Patterns</h3>
+									<p>
+										<a href="pages/patterns.html">Look at</a>
+									</p>
+								</div>
+							</div>
+						</li>
+						<!-- patterns content -->
+						<li>
+							<div class="ch3-item ch3-img-3">
+								<div class="ch3-info">
+									<h3>Gamedev</h3>
+									<p>
+										<a href="pages/gamedev.html">Look at</a>
+									</p>
+								</div>
+							</div>
+						</li>
+						<!-- gamedev content -->
+					</ul>
+				</section>
+				<div id="up">
+					<a href="#" onclick="return up()">
+					<img src="images/up.png"></a>
+				</div>
+				<footer>
+					<hr class="hr-shelf">
+					<div id="cr">
+						<p>All rights reserved
+							<a href="about.html">Alena Harazhan</a>
+						&copy; 2020 </p>
+					</div>
+				</footer>
+			</div>
+			<!-- footer content -->
+		</body>
