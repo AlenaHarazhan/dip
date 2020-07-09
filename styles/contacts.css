@@ -1,87 +1,83 @@
 #wrap {
-    position: relative;
-    overflow: hidden;
-    margin: 0 auto;
-    width: 100%;
-    height: auto;
-    background-color: #F2E8B6;
-    background-image: url("../../images/bgimg.png");
+    background-image: url("../images/bgimg.png");
 }
 #content {
     width: 100%;
-    height: 400px;
-    background-color: #F2A950;
+    height: auto;
+    margin: 0 auto;
+    font-family: 'Oxygen', sans-serif;
+    background-color: #83A672;
+    text-align: center; 
+    padding-bottom: 2em;
 }
-footer {
+
+#content h2 {
+    padding: 1.2em;
+    color: #fff;
+    font-size: 2.6em;
+    font-weight: bold;
+}
+#content p {
+    font-size: 28px;
+    color: #fff;
+}
+#content2 {
     width: 100%;
     height: auto;
-    background-color: #83A672;
-    margin-top: 4.5em;
-   /* background: linear-gradient(360deg, #012226,#A6A197);*/
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    margin: 0 auto;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 1.5em;
+    text-align: center; 
+    padding-top: 2em;
+    padding-bottom: 0px;
+}
+#skype p, #telega p, #mail p {
+    margin-top: 2em;
+}
+#phone p {
+    margin-top: 2.8em;
 }
 
-footer div {
-    width: auto;
-    height: 30px;
-    padding: 40px;
+#skype {
+    padding-top: 1.3em; 
+    background-color: #F29472;
+    background-size: 110px 110px;
+    background-image: url("../images/media/skype.png");
 }
 
-footer p {
-    color: #fff;
-    font-size: 0.8em;
-    margin: 0px;
-    padding: 0px;
-    width: auto;
-    font-family: 'Lexend Tera', sans-serif;
+#telega {
+    padding-top: 1.3em; 
+    background-size: 110px 110px;
+    background-image: url("../images/media/telegram.png");
+}
+
+#phone {
+    padding-top: 0.1em; 
+    background-size: 130px 130px;
+    background-image: url("../images/media/phone.png");
+}
+#phone p, #telega p {
+    color: #000;
+}
+
+#mail {
+    padding-top: 1.3em; 
+    background-size: 110px 110px;
+    background-image: url("../images/media/mail.png");
+    background-color: #F2A950;
 }
 
 #skype,
 #telega,
 #phone,
 #mail {
-    background-repeat: no-repeat;
-    background-position: left;
-}
-
-#telega {
-    background-size: 20%;
-}
-
-#mail {
-    background-size: 18%;
-}
-
-#phone {
-    background-size: 25%;
-}
-
-#skype {
-    background-size: 28%;
-}
-
-#skype {
-    background-image: url("../../images/media/skype.png");
-}
-
-#telega {
-    background-image: url("../../images/media/telegram.png");
-}
-
-#phone {
-    background-image: url("../../images/media/phone.png");
-}
-
-#mail {
-    background-image: url("../../images/media/mail.png");
-}
-
-#skype p,
-#telega p,
-#phone p,
-#mail p {
-    margin-left: 30px;
+  width: 100%;
+  height: 200px;
+  align-content: center;
+  margin: 0 auto;
+  
+  background-repeat: no-repeat;     
+  background-position: 30%;
+  font-size: 1.3em;
+  color: #fff;
 }

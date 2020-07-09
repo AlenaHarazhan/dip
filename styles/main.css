@@ -1,0 +1,173 @@
+* {
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+header {
+    width: 100%;
+    height: auto;
+}
+#wrap {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin: 0 auto;
+    background-color: #F2E8B6;
+}
+nav {
+    float: right;
+    width: 23.5em;
+    margin-top: 0.2em;
+    margin-right: 4.5em;
+    font-family: 'Oxygen', sans-serif;
+}
+nav a {
+    color: #83A672;
+    font-weight: bold;
+}
+nav a:hover {
+    color: #57704b;
+}
+.top {
+    height: 12.5em;
+    overflow: hidden;
+    padding: 10px 0px;
+    margin: 0 0 30px 0;
+}
+
+.logo {
+    border: double 5px white;
+    border-radius: 50%;
+    position: relative;
+    float: left;
+    width: 10em;
+    height: 10em;
+    margin-top: 2.5em;
+    margin-left: 10.5em;
+    /*font-family: 'Lexend Tera', sans-serif;*/
+    font-family: 'Oxygen', sans-serif;
+}
+.logo h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #BF6B63;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+}
+.logo a:visited {
+    color: #BF6B63;
+}
+footer {
+    margin-top: 5.5em;
+}
+
+footer a {
+    text-decoration: none;
+    color: #F29472;
+    font-weight: bolder;
+}
+
+.hr-shelf {
+    margin: -30px auto 30px;
+    padding: 0;
+    height: 50px;
+    border: none;
+    border-bottom: 1px solid #BF6B63;
+    box-shadow: 0 20px 20px -20px #8b8255;
+    width: 95%;
+}
+.list {
+    float: left;
+    width: 45%;
+    height: 50px;
+    margin-left: 2%;
+    margin-right: 3%;
+    margin-top: 5.5em;
+}
+
+.b-list {
+    width: 300px;
+    height: 300px;
+    margin: 0 0 80px 0;
+}
+
+#up {
+    width: 50px;
+    height: auto;
+    position: relative;
+    top: 95%;
+    left: 90%;
+}
+
+#up img {
+    width: 50px;
+    height: 50px;
+    opacity: 0.6;
+    margin-left: 93%;
+    padding: 10px;
+}
+
+#up img:hover {
+    opacity: 1;
+}
+
+#cr {
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    float: left;
+    font-size: 0.8em;
+}
+
+#cr a {
+    color: #fff;
+}
+
+@media screen and (min-width: 600px) and (max-width: 800px) {
+    .top {
+        height: 300px;
+    }
+
+    .b-list {
+        float: left;
+        width: 32%;
+        margin: 0 0 0 2%;
+    }
+
+    .b-list:first-child {
+        margin: 0;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .top {
+        height: 300px;
+    }
+
+    .logo {
+        float: none;
+    }
+
+    .item {
+        float: none;
+        width: 100%;
+        margin: 30px 0 0;
+    }
+
+    .list {
+        margin: 0 15% 0 0;
+    }
+
+    .b-list {
+        margin: 0 0 30px 0;
+    }
+
+}

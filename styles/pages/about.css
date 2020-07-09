@@ -7,28 +7,8 @@
 }
 
 #wrap {
-	display: flex;
-	flex-direction: column;
-	height: 100%;
-	width: 100%;
-	margin: 0 auto;
-	width: 100%;
-	height: auto;
-	background-color: #F2F0CE;
-	font-family: 'Oxygen', sans-serif;
-	background-image: url("../../images/bgimg.png");
+    background-image: url("../../images/bgimg.png");
 }
-
-header {
-	width: 100%;
-	height: 50px;
-	margin-top: 30px;
-}
-
-header a {
-	text-decoration: none;
-}
-
 #hello {
 	width: 100%;
 	height: 370px;
@@ -73,17 +53,12 @@ header a {
 }
 #skills {
 	width: 100%;
-	height: 480px;
+	height: 450px;
 	margin: 0 auto;
 	padding-bottom: 2em;
 	/*background-color: #F2F0CE;*/
 	background-image: url("../../images/media/pict1.png");
 	font-family: 'Oxygen', sans-serif;
-}
-
-#skills h1,
-#services h1 {
-	padding-top: 30px;
 }
 
 #skills h1 {
@@ -94,31 +69,22 @@ h1 {
 	font-weight: bold;
 }
 
-li {
+#skills li,
+#services li,
+#info li
+ {
 	margin-top: 1.2em;
 }
 
 #services {
 	width: 100%;
-	height: 450px;
+	height: 410px;
 	margin: 0 auto;
 	padding-bottom: 2em;
 	background-color: #F2A950;
 	background-image: url("../../images/media/pict2.png");
+	font-family: 'Oxygen', sans-serif;
 	color: #fff;
-}
-
-footer {
-	text-align: center;
-	color: #000;
-	width: 100%;
-	height: auto;
-}
-
-footer a {
-	text-decoration: none;
-	color: #F29472;
-	font-weight: bolder;
 }
 
 span {
@@ -129,37 +95,37 @@ span {
 	text-align: center;
 }
 
-#up {
+#info {
 	width: 100%;
-	height: auto;
-	position: relative;
-	float: left;
+	height: 200px;
+	margin: 0 auto;
+	padding-top: 2em;
+	padding-bottom: 0.5em;
+	font-family: 'Oxygen', sans-serif;
+	text-align: center;
 }
 
-#up img {
+#share {
+	padding-top: 4.5em;
+	margin: 0 auto;
+	width: 100%;
+	height: 100px;
+	background-color: #F29472;
+}
+.ya-share2_inited {
+	display: flex;
+    justify-content: center;
+    
+}
+.ya-share2__badge {
 	width: 50px;
-	height: 50px;
-	opacity: 0.6;
-	margin-left: 93%;
-	padding: 10px;
-}
-
-#up img:hover {
-	opacity: 1;
-}
-
-.hr-shelf {
-    margin: -30px auto 10px;
-    padding: 0;
-    height: 50px;
-    border: none;
-    border-bottom: 1px solid #F29472;
-    box-shadow: 0 20px 20px -20px #8b8255;
-    width: 95%;
+	height: 25px;
+    border: solid 1px #fff;
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
 }
 
 
-ul.breadcrumb {
+/*ul.breadcrumb {
   padding: 10px 16px;
   list-style: none;
 }
@@ -184,4 +150,4 @@ ul.breadcrumb li a {
 ul.breadcrumb li a:hover {
   color: #eb602e;
   text-decoration: underline;
-}
+}*/
